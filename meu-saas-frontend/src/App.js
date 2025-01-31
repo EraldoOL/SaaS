@@ -9,7 +9,13 @@ import Dashboard from './components/Dashboard';
 
 function App() {
   return (
+
     <Router>
+    <div>
+      <h1>olá</h1>
+    </div>
+    
+    
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
