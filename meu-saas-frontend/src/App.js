@@ -15,7 +15,6 @@ function App() {
       <h1>olá</h1>
     </div>
     
-    
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
