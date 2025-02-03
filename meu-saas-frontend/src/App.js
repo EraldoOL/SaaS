@@ -7,10 +7,8 @@ import Contact from './pages/Contact';
 import LoginForm from './components/LoginForm';
 import Dashboard from './components/Dashboard';
 
-
 function App() {
   return (
-
     <Router>
     <div>
       <h1>olá</h1>
