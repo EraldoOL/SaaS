@@ -6,7 +6,7 @@ const Dashboard = () => {
 
   useEffect(() => {
     
-    api.get('/dashboard-data') // Endpoint da sua API
+    api.get('/dashboard-data')
       .then(response => setData(response.data))
       .catch(error => console.error('Erro ao carregar dados', error));
   }, []);
