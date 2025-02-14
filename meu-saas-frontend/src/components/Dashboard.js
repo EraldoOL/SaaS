@@ -16,6 +16,7 @@ const Dashboard = () => {
     <div>
     
       <h1>Dashboard</h1>
+      
       <ul>
         {data.map(item => (
           <li key={item.id}>{item.name}</li>
