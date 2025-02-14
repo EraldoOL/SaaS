@@ -22,6 +22,7 @@ const Dashboard = () => {
         {data.map(item => (
         
           <li key={item.id}>{item.name}</li>
+          
         ))}
       </ul>
     </div>
