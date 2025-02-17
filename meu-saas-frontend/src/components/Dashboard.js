@@ -26,7 +26,6 @@ const Dashboard = () => {
         ))}
         
       </ul>
-      
     </div>
   );
 }
